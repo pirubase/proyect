@@ -15,6 +15,7 @@ namespace proyect.Data
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<local>().ToCollection("Doctores");
+
         }
 
         public DbSet<t001_doctor> t001_doctor { get; set; }
